@@ -14,7 +14,8 @@ module.exports = {
   devtool: 'eval',
   devServer: {
     contentBase: path.join(__dirname, 'demo'),
-    port: 3300
+    port: 3300,
+    allowedHosts: ['.csb.app'] // <  Copy and paste the domain from the URL Codebox provides for your runtime here
     //   host: '0.0.0.0',
     //   open: true,
     //   overlay: true

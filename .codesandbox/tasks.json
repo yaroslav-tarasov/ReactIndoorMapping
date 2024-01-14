@@ -1,0 +1,77 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "docs": {
+      "name": "docs",
+      "command": "yarn docs"
+    },
+    "pretest": {
+      "name": "pretest",
+      "command": "yarn pretest"
+    },
+    "test": {
+      "name": "test",
+      "command": "yarn test"
+    },
+    "test-nolint": {
+      "name": "test-nolint",
+      "command": "yarn test-nolint"
+    },
+    "start": {
+      "name": "start",
+      "command": "yarn start",
+      "runAtStart": true,
+      "preview": {
+        "port": 3300
+      }
+    },
+    "build": {
+      "name": "build",
+      "command": "yarn build"
+    },
+    "release": {
+      "name": "release",
+      "command": "yarn release"
+    },
+    "lint": {
+      "name": "lint",
+      "command": "yarn lint"
+    },
+    "lint-spec": {
+      "name": "lint-spec",
+      "command": "yarn lint-spec"
+    },
+    "lintfix": {
+      "name": "lintfix",
+      "command": "yarn lintfix"
+    },
+    "rollup": {
+      "name": "rollup",
+      "command": "yarn rollup"
+    },
+    "lib": {
+      "name": "lib",
+      "command": "yarn lib"
+    },
+    "watch": {
+      "name": "watch",
+      "command": "yarn watch"
+    },
+    "uglify": {
+      "name": "uglify",
+      "command": "yarn uglify"
+    },
+    "integrity": {
+      "name": "integrity",
+      "command": "yarn integrity"
+    }
+  }
+}
